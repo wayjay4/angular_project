@@ -4,11 +4,13 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
+import { TemplateRefVarsComponent } from './template-ref-vars/template-ref-vars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    TemplateRefVarsComponent
   ],
   imports: [
     BrowserModule,
